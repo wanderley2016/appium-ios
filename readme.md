@@ -1,9 +1,9 @@
-# Appium-ios x  Calabash-ios                                [![Build Status]
+# Appium-ios x  Calabash-ios
 
 ## Quem tem a melhor Performance em Execução?
 
 Ao invés de falar, melhor mostrar, esse projeto tem como objetivo 
-criar um repositorio com Appium Android e nesse <a href="https://github.com/danilopolicarpos/calabash-android">Calabash Android</a>
+criar um repositorio com Appium Android e nesse <a href="https://github.com/wanderley2016/calabash-ios">Calabash ios</a>
 para medir-mos a performance dos dois.
 
 ## Criando o projeto
@@ -93,5 +93,5 @@ app = "/Users/[SEU USUARIO]/Documents/appium-ios/build/ipa/HellowXcode-cal.app"
 ## Respostas
 
 Respondendo então pergunta do tópico. "Até o momento a execução dos testes
-com o calabash android é bem mais rápida do que o appium android".Se ficou 
+com o appium ios é bem mais rápida do que o calabash ios".Se ficou 
 curioso é só olhar o "reports" nos repositorios e verificar o time.
