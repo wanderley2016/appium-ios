@@ -1,0 +1,250 @@
+[Appium] Welcome to Appium v1.7.0
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"newCommandTimeout":999999,"platformName":"iOS","platformVersion":10.3,"deviceName":"iPhone Simulator","app":"/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app"},"capabilities":{"firstMatch":[{"platformName":"iOS"}]}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"newCommandTimeout":999999,"platformName":"iOS","platformVersion":10.3,"deviceName":"iPhone Simulator","app":"/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app"},null,{"firstMatch":[{"platformName":"iOS"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1513022990518 (18:09:50 GMT-0200 (-02))
+[Appium] Requested iOS support with version >= 10, using XCUITest driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+[Appium] Creating new XCUITestDriver (v2.49.0) session
+[Appium] Capabilities:
+[Appium]   newCommandTimeout: 999999
+[Appium]   platformName: 'iOS'
+[Appium]   platformVersion: 10.3
+[Appium]   deviceName: 'iPhone Simulator'
+[Appium]   app: '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app'
+[BaseDriver] Session created with session id: 573b3b14-7dc6-4bca-8aae-4729aa0aba31
+[debug] [XCUITest] Xcode version set to '9.2' (tools v9.1.0.0.1.1508540944)
+[debug] [XCUITest] iOS SDK Version set to '11.2'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1513022993197 (18:09:53 GMT-0200 (-02))
+[debug] [XCUITest] Changing deviceName from 'iPhone Simulator' to 'iPhone 6'
+[XCUITest] Error: '10.3' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 9.0,11.2
+    at getDevices$ (../../lib/simctl.js:533:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+ Error: '10.3' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 9.0,11.2
+    at getDevices$ (../../lib/simctl.js:533:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[MJSONWP] Encountered internal error running command: Error: '10.3' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 9.0,11.2
+    at getDevices$ (../../lib/simctl.js:533:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[HTTP] <-- POST /wd/hub/session 500 2985 ms - 267 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"newCommandTimeout":999999,"platformName":"iOS","platformVersion":10.3,"deviceName":"iPhone 7 Plus","app":"/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app"},"capabilities":{"firstMatch":[{"platformName":"iOS"}]}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"newCommandTimeout":999999,"platformName":"iOS","platformVersion":10.3,"deviceName":"iPhone 7 Plus","app":"/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app"},null,{"firstMatch":[{"platformName":"iOS"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1513023105547 (18:11:45 GMT-0200 (-02))
+[Appium] Requested iOS support with version >= 10, using XCUITest driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+[Appium] Creating new XCUITestDriver (v2.49.0) session
+[Appium] Capabilities:
+[Appium]   newCommandTimeout: 999999
+[Appium]   platformName: 'iOS'
+[Appium]   platformVersion: 10.3
+[Appium]   deviceName: 'iPhone 7 Plus'
+[Appium]   app: '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app'
+[BaseDriver] Session created with session id: db285475-0e07-47b6-a27d-14d274d19114
+[debug] [XCUITest] Xcode version set to '9.2' (tools v9.1.0.0.1.1508540944)
+[debug] [XCUITest] iOS SDK Version set to '11.2'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1513023105651 (18:11:45 GMT-0200 (-02))
+[XCUITest] Error: '10.3' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 9.0,11.2
+    at getDevices$ (../../lib/simctl.js:533:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+ Error: '10.3' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 9.0,11.2
+    at getDevices$ (../../lib/simctl.js:533:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[MJSONWP] Encountered internal error running command: Error: '10.3' does not exist in the list of simctl SDKs. Only the following Simulator SDK versions are available on your system: 9.0,11.2
+    at getDevices$ (../../lib/simctl.js:533:13)
+    at tryCatch (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (/usr/local/lib/node_modules/appium/node_modules/babel-runtime/regenerator/runtime.js:136:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[HTTP] <-- POST /wd/hub/session 500 332 ms - 267 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"newCommandTimeout":999999,"platformName":"iOS","platformVersion":11.2,"deviceName":"iPhone 7","app":"/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app"},"capabilities":{"firstMatch":[{"platformName":"iOS"}]}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"newCommandTimeout":999999,"platformName":"iOS","platformVersion":11.2,"deviceName":"iPhone 7","app":"/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app"},null,{"firstMatch":[{"platformName":"iOS"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1513023223931 (18:13:43 GMT-0200 (-02))
+[Appium] Requested iOS support with version >= 10, using XCUITest driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+[Appium] Creating new XCUITestDriver (v2.49.0) session
+[Appium] Capabilities:
+[Appium]   newCommandTimeout: 999999
+[Appium]   platformName: 'iOS'
+[Appium]   platformVersion: 11.2
+[Appium]   deviceName: 'iPhone 7'
+[Appium]   app: '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app'
+[BaseDriver] Session created with session id: 9d703342-ffff-481f-863a-442935d35ddb
+[debug] [XCUITest] Xcode version set to '9.2' (tools v9.1.0.0.1.1508540944)
+[debug] [XCUITest] iOS SDK Version set to '11.2'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1513023224040 (18:13:44 GMT-0200 (-02))
+[iOSSim] Constructing iOS simulator for Xcode version 9.2 with udid '438E073C-2791-4680-B5E9-1AE65A4270EC'
+[XCUITest] Determining device to run tests on: udid: '438E073C-2791-4680-B5E9-1AE65A4270EC', real device: false
+[BaseDriver] Using local app '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app'
+[debug] [BaseDriver] Event 'appConfigured' logged at 1513023224436 (18:13:44 GMT-0200 (-02))
+[debug] [XCUITest] Checking whether app '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app' is actually present on file system
+[debug] [XCUITest] App is present
+[debug] [iOS] Getting bundle ID from app '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app': 'com.-SimpleDev.HellowXcode'
+[debug] [BaseDriver] Event 'resetStarted' logged at 1513023224440 (18:13:44 GMT-0200 (-02))
+[XCUITest] Not scrubbing third party app in anticipation of uninstall
+[debug] [BaseDriver] Event 'resetComplete' logged at 1513023224598 (18:13:44 GMT-0200 (-02))
+[debug] [iOSLog] Starting iOS 11.2 simulator log capture
+[debug] [iOSLog] System log path: /Users/wanderleylandim/Library/Logs/CoreSimulator/438E073C-2791-4680-B5E9-1AE65A4270EC/system.log
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1513023224798 (18:13:44 GMT-0200 (-02))
+[XCUITest] Setting up simulator
+[debug] [iOS] No reason to set locale
+[debug] [iOS] No iOS / app preferences to set
+[debug] [iOSSim] The count of running Simulator UI client instances is 1
+[iOSSim] Booting Simulator with UDID 438E073C-2791-4680-B5E9-1AE65A4270EC...
+[HTTP] <-- POST /wd/hub/session - - ms - - 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"newCommandTimeout":999999,"platformName":"iOS","platformVersion":11.2,"deviceName":"iPhone 7","app":"/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app"},"capabilities":{"firstMatch":[{"platformName":"iOS"}]}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"newCommandTimeout":999999,"platformName":"iOS","platformVersion":11.2,"deviceName":"iPhone 7","app":"/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app"},null,{"firstMatch":[{"platformName":"iOS"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1513023263512 (18:14:23 GMT-0200 (-02))
+[Appium] Requested iOS support with version >= 10, using XCUITest driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+[Appium] Creating new XCUITestDriver (v2.49.0) session
+[Appium] Capabilities:
+[Appium]   newCommandTimeout: 999999
+[Appium]   platformName: 'iOS'
+[Appium]   platformVersion: 11.2
+[Appium]   deviceName: 'iPhone 7'
+[Appium]   app: '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app'
+[BaseDriver] Session created with session id: da3f3d1e-8beb-4b05-9da2-0456000d56fb
+[debug] [XCUITest] Xcode version set to '9.2' (tools v9.1.0.0.1.1508540944)
+[debug] [XCUITest] iOS SDK Version set to '11.2'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1513023263782 (18:14:23 GMT-0200 (-02))
+[iOSSim] Constructing iOS simulator for Xcode version 9.2 with udid '438E073C-2791-4680-B5E9-1AE65A4270EC'
+[XCUITest] Determining device to run tests on: udid: '438E073C-2791-4680-B5E9-1AE65A4270EC', real device: false
+[BaseDriver] Using local app '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app'
+[debug] [BaseDriver] Event 'appConfigured' logged at 1513023264397 (18:14:24 GMT-0200 (-02))
+[debug] [XCUITest] Checking whether app '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app' is actually present on file system
+[debug] [XCUITest] App is present
+[debug] [iOS] Getting bundle ID from app '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app': 'com.-SimpleDev.HellowXcode'
+[debug] [BaseDriver] Event 'resetStarted' logged at 1513023264398 (18:14:24 GMT-0200 (-02))
+[XCUITest] Not scrubbing third party app in anticipation of uninstall
+[debug] [BaseDriver] Event 'resetComplete' logged at 1513023264693 (18:14:24 GMT-0200 (-02))
+[debug] [iOSLog] Starting iOS 11.2 simulator log capture
+[debug] [iOSLog] System log path: /Users/wanderleylandim/Library/Logs/CoreSimulator/438E073C-2791-4680-B5E9-1AE65A4270EC/system.log
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1513023264956 (18:14:24 GMT-0200 (-02))
+[XCUITest] Setting up simulator
+[debug] [iOS] No reason to set locale
+[debug] [iOS] No iOS / app preferences to set
+[debug] [iOSSim] The count of running Simulator UI client instances is 0
+[iOSSim] Booting Simulator with UDID 438E073C-2791-4680-B5E9-1AE65A4270EC...
+[iOSSim] Starting Simulator UI with command: open -Fn /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID 438E073C-2791-4680-B5E9-1AE65A4270EC -ConnectHardwareKeyboard 0
+[debug] [iOSSim] The count of running Simulator UI client instances is 1
+[iOSSim] Simulator with UDID 438E073C-2791-4680-B5E9-1AE65A4270EC booted in 57 seconds
+[debug] [BaseDriver] Event 'simStarted' logged at 1513023282891 (18:14:42 GMT-0200 (-02))
+[iOSSim] Simulator with UDID 438E073C-2791-4680-B5E9-1AE65A4270EC booted in 17 seconds
+[debug] [BaseDriver] Event 'simStarted' logged at 1513023283285 (18:14:43 GMT-0200 (-02))
+[debug] [XCUITest] Reset requested. Removing app with id 'com.-SimpleDev.HellowXcode' from the device
+[debug] [XCUITest] Reset requested. Removing app with id 'com.-SimpleDev.HellowXcode' from the device
+[debug] [XCUITest] Installing '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app' on Simulator with UUID '438E073C-2791-4680-B5E9-1AE65A4270EC'...
+[debug] [XCUITest] Installing '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app' on Simulator with UUID '438E073C-2791-4680-B5E9-1AE65A4270EC'...
+[debug] [XCUITest] The app has been installed successfully.
+[debug] [BaseDriver] Event 'appInstalled' logged at 1513023291021 (18:14:51 GMT-0200 (-02))
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] Capability 'useNewWDA' set to false, so trying to reuse currently running WDA instance at 'http://localhost:8100/'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[debug] [XCUITest] WDA is not listening at 'http://localhost:8100/'. Rebuilding...
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1513023291334 (18:14:51 GMT-0200 (-02))
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: '/usr/local/bin/carthage'
+[debug] [XCUITest] Killing running processes 'xcodebuild.*438E073C-2791-4680-B5E9-1AE65A4270EC, iproxy 8100, 438E073C-2791-4680-B5E9-1AE65A4270EC.*XCTRunner' for the device 438E073C-2791-4680-B5E9-1AE65A4270EC...
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*438E073C-2791-4680-B5E9-1AE65A4270EC' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] The app has been installed successfully.
+[debug] [XCUITest] 'pgrep -nif iproxy 8100' didn't detect any matching processes. Return code: 1
+[debug] [BaseDriver] Event 'appInstalled' logged at 1513023291712 (18:14:51 GMT-0200 (-02))
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] Capability 'useNewWDA' set to false, so trying to reuse currently running WDA instance at 'http://localhost:8100/'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[debug] [XCUITest] 'pgrep -nif 438E073C-2791-4680-B5E9-1AE65A4270EC.*XCTRunner' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Using Xcode 9.2, so fixing WDA codebase
+[debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=438E073C-2791-4680-B5E9-1AE65A4270EC IPHONEOS_DEPLOYMENT_TARGET=11.2' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[debug] [XCUITest] Output from xcodebuild will not be logged. To see xcode logging, use 'showXcodeLog' desired capability
+[debug] [XCUITest] WDA is not listening at 'http://localhost:8100/'. Rebuilding...
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1513023291929 (18:14:51 GMT-0200 (-02))
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: '/usr/local/bin/carthage'
+[debug] [XCUITest] Killing running processes 'xcodebuild.*438E073C-2791-4680-B5E9-1AE65A4270EC, iproxy 8100, 438E073C-2791-4680-B5E9-1AE65A4270EC.*XCTRunner' for the device 438E073C-2791-4680-B5E9-1AE65A4270EC...
+[XCUITest] xcodebuild exited with code 'null' and signal 'SIGINT'
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*438E073C-2791-4680-B5E9-1AE65A4270EC' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif iproxy 8100' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif 438E073C-2791-4680-B5E9-1AE65A4270EC.*XCTRunner' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Using Xcode 9.2, so fixing WDA codebase
+[HTTP] <-- POST /wd/hub/session - - ms - - 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"newCommandTimeout":999999,"platformName":"iOS","platformVersion":11.2,"deviceName":"iPhone 7","app":"/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app"},"capabilities":{"firstMatch":[{"platformName":"iOS"}]}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"newCommandTimeout":999999,"platformName":"iOS","platformVersion":11.2,"deviceName":"iPhone 7","app":"/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app"},null,{"firstMatch":[{"platformName":"iOS"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1513023498715 (18:18:18 GMT-0200 (-02))
+[Appium] Requested iOS support with version >= 10, using XCUITest driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+[Appium] Creating new XCUITestDriver (v2.49.0) session
+[Appium] Capabilities:
+[Appium]   newCommandTimeout: 999999
+[Appium]   platformName: 'iOS'
+[Appium]   platformVersion: 11.2
+[Appium]   deviceName: 'iPhone 7'
+[Appium]   app: '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app'
+[BaseDriver] Session created with session id: bd497686-9faf-468b-bdbe-ca5481097ca3
+[debug] [XCUITest] Xcode version set to '9.2' (tools v9.1.0.0.1.1508540944)
+[debug] [XCUITest] iOS SDK Version set to '11.2'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1513023498836 (18:18:18 GMT-0200 (-02))
+[iOSSim] Constructing iOS simulator for Xcode version 9.2 with udid '438E073C-2791-4680-B5E9-1AE65A4270EC'
+[XCUITest] Determining device to run tests on: udid: '438E073C-2791-4680-B5E9-1AE65A4270EC', real device: false
+[BaseDriver] Using local app '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app'
+[debug] [BaseDriver] Event 'appConfigured' logged at 1513023499258 (18:18:19 GMT-0200 (-02))
+[debug] [XCUITest] Checking whether app '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app' is actually present on file system
+[debug] [XCUITest] App is present
+[debug] [iOS] Getting bundle ID from app '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app': 'com.-SimpleDev.HellowXcode'
+[debug] [BaseDriver] Event 'resetStarted' logged at 1513023499258 (18:18:19 GMT-0200 (-02))
+[XCUITest] Not scrubbing third party app in anticipation of uninstall
+[debug] [BaseDriver] Event 'resetComplete' logged at 1513023499417 (18:18:19 GMT-0200 (-02))
+[debug] [iOSLog] Starting iOS 11.2 simulator log capture
+[debug] [iOSLog] System log path: /Users/wanderleylandim/Library/Logs/CoreSimulator/438E073C-2791-4680-B5E9-1AE65A4270EC/system.log
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1513023499594 (18:18:19 GMT-0200 (-02))
+[XCUITest] Setting up simulator
+[debug] [iOS] No reason to set locale
+[debug] [iOS] No iOS / app preferences to set
+[debug] [iOSSim] The count of running Simulator UI client instances is 0
+[iOSSim] Booting Simulator with UDID 438E073C-2791-4680-B5E9-1AE65A4270EC...
+[iOSSim] Starting Simulator UI with command: open -Fn /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID 438E073C-2791-4680-B5E9-1AE65A4270EC -ConnectHardwareKeyboard 0
+[debug] [iOSSim] The count of running Simulator UI client instances is 1
+[iOSSim] Simulator with UDID 438E073C-2791-4680-B5E9-1AE65A4270EC booted in 13 seconds
+[debug] [BaseDriver] Event 'simStarted' logged at 1513023513661 (18:18:33 GMT-0200 (-02))
+[debug] [XCUITest] Installing '/Users/wanderleylandim/Documents/appium-ios/build/ipa/HellowXcode-cal.app' on Simulator with UUID '438E073C-2791-4680-B5E9-1AE65A4270EC'...
+[debug] [XCUITest] The app has been installed successfully.
+[debug] [BaseDriver] Event 'appInstalled' logged at 1513023519022 (18:18:39 GMT-0200 (-02))
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] Capability 'useNewWDA' set to false, so trying to reuse currently running WDA instance at 'http://localhost:8100/'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[debug] [XCUITest] WDA is not listening at 'http://localhost:8100/'. Rebuilding...
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1513023519137 (18:18:39 GMT-0200 (-02))
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: '/usr/local/bin/carthage'
+[debug] [XCUITest] Killing running processes 'xcodebuild.*438E073C-2791-4680-B5E9-1AE65A4270EC, iproxy 8100, 438E073C-2791-4680-B5E9-1AE65A4270EC.*XCTRunner' for the device 438E073C-2791-4680-B5E9-1AE65A4270EC...
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*438E073C-2791-4680-B5E9-1AE65A4270EC' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif iproxy 8100' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif 438E073C-2791-4680-B5E9-1AE65A4270EC.*XCTRunner' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Using Xcode 9.2, so fixing WDA codebase
+[HTTP] <-- POST /wd/hub/session - - ms - - 
