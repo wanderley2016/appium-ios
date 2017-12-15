@@ -3,7 +3,7 @@
 ## Quem tem a melhor Performance em Execução?
 
 Ao invés de falar, melhor mostrar, esse projeto tem como objetivo 
-criar um repositorio com Appium Android e nesse <a href="https://github.com/wanderley2016/calabash-ios">Calabash ios</a>
+criar um repositorio com Appium iOS e nesse <a href="https://github.com/wanderley2016/calabash-ios">Calabash ios</a>
 para medir-mos a performance dos dois.
 
 ## Criando o projeto
@@ -36,7 +36,7 @@ São um conjunto de chave/valor que são enviados ao Appium Server para informar
 É através do Desired Capabilities que informamos em qual dispositivo queremos executar, e quais as configurações iniciais.
 No terminal e execute o comando abaixo :
 ```
-Arc setup ios  # cria um txt. para android (Capabilities para iOS)
+Arc setup ios  # cria um txt. para iOS (Capabilities para iOS)
 ```
 Exemplos:
 
